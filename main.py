@@ -20,7 +20,7 @@ def main():
         page_title="Graphy v1",
         page_icon=":graph:"
     )
-    st.sidebar.image('logo.png', use_column_width=True) 
+    # st.sidebar.image('logo.png', use_column_width=True) 
     with st.sidebar.expander("Expand Me"):
         st.markdown("""
     This application allows you to upload a PDF file, extract its content into a Neo4j graph database, and perform queries using natural language.
