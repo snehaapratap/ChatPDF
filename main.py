@@ -49,6 +49,7 @@ def main():
     neo4j_password = None
     graph = None
 
+    
     if 'neo4j_connected' not in st.session_state:
         st.sidebar.subheader("Connect to Neo4j Database")
         neo4j_url = st.sidebar.text_input("Neo4j URL:", value="neo4j+s://<your-neo4j-url>")
